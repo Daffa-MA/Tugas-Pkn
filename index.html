@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmoni dalam Keberagaman DIY</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Splash Screen / Start Page -->
+    <div class="splash-screen" id="splashScreen">
+        <div class="splash-content">
+            <div class="splash-logo">
+                <img src="images/batik-pattern.svg" alt="Batik Pattern" class="splash-icon">
+            </div>
+            <div class="splash-title-container">
+                <div class="line line-top"></div>
+                <h1 class="splash-title">
+                    <span class="word">HARMONI</span>
+                    <span class="word">DALAM</span>
+                    <span class="word">KEBERAGAMAN</span>
+                </h1>
+                <div class="line line-bottom"></div>
+            </div>
+            <p class="splash-subtitle">Daerah Istimewa Yogyakarta</p>
+            <p class="splash-desc">Website Edukatif PPKn Kelas X</p>
+            <button class="btn-start" id="btnStart">
+                <span>MULAI PENJELAJAHAN</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="splash-footer">
+                <p>Tugas Pendidikan Pancasila dan Kewarganegaraan</p>
+            </div>
+        </div>
+        <div class="splash-batik-pattern"></div>
+    </div>
+
+    <!-- Main Content (Hidden initially) -->
+    <div class="main-content" id="mainContent">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/batik-pattern.svg" alt="Batik Pattern" class="nav-icon">
+                <span>Harmoni DIY</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="budaya.html">Budaya & Sosial</a></li>
+                <li><a href="nilai.html">Nilai Harmoni</a></li>
+                <li><a href="kasus.html">Kasus & Solusi</a></li>
+                <li><a href="refleksi.html">Kesimpulan</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="batik-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Harmoni dalam Keberagaman<br><span class="highlight">Daerah Istimewa Yogyakarta</span></h1>
+                <div class="hero-quote">
+                    <div class="quote-icon">❝</div>
+                    <p class="javanese-text">Hamemayu Hayuning Bawono</p>
+                    <p class="quote-translation">Menjaga Keindahan dan Keseimbangan Dunia</p>
+                </div>
+                <p class="hero-description">
+                    Website edukatif untuk memahami bagaimana keberagaman budaya, adat, dan nilai-nilai luhur 
+                    di Daerah Istimewa Yogyakarta menciptakan harmoni dalam kehidupan bermasyarakat.
+                </p>
+                <a href="#profil" class="btn-primary">Mulai Penjelajahan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Daerah Section -->
+    <section class="content-section" id="profil">
+        <div class="container">
+            <h2 class="section-title">📜 Profil Daerah Istimewa Yogyakarta</h2>
+            
+            <!-- Geografi -->
+            <div class="content-card">
+                <h2 class="content-title">🗺️ Lokasi Geografis</h2>
+                <div class="content-body">
+                    <p>Daerah Istimewa Yogyakarta terletak di bagian selatan Pulau Jawa, berbatasan dengan:</p>
+                    <ul class="custom-list">
+                        <li><strong>Utara:</strong> Provinsi Jawa Tengah (Kabupaten Magelang, Boyolali, Klaten, Sukoharjo)</li>
+                        <li><strong>Timur:</strong> Provinsi Jawa Tengah (Kabupaten Wonogiri)</li>
+                        <li><strong>Barat:</strong> Provinsi Jawa Tengah (Kabupaten Purworejo)</li>
+                        <li><strong>Selatan:</strong> Samudera Hindia</li>
+                    </ul>
+                    <div class="info-box">
+                        <p><strong>Luas Wilayah:</strong> ± 3.185,80 km²</p>
+                        <p><strong>Ibu Kota:</strong> Kota Yogyakarta</p>
+                        <p><strong>Jumlah Penduduk:</strong> ± 3,8 juta jiwa</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wilayah Administratif -->
+            <div class="content-card">
+                <h2 class="content-title">🏛️ Wilayah Administratif</h2>
+                <div class="content-body">
+                    <p>Daerah Istimewa Yogyakarta terdiri dari 5 (lima) wilayah kabupaten/kota:</p>
+                    
+                    <div class="wilayah-grid">
+                        <div class="wilayah-card">
+                            <div class="wilayah-icon">1</div>
+                            <h3>Kabupaten Sleman</h3>
+                            <p><strong>Ibu Kota:</strong> Sleman</p>
+                            <p><strong>Ciri Khas:</strong> Wilayah lereng Gunung Merapi, kawasan pendidikan, dan wisata alam. Terkenal dengan Candi Prambanan dan kawasan Kaliurang.</p>
+                        </div>
+                        
+                        <div class="wilayah-card">
+                            <div class="wilayah-icon">2</div>
+                            <h3>Kabupaten Bantul</h3>
+                            <p><strong>Ibu Kota:</strong> Bantul</p>
+                            <p><strong>Ciri Khas:</strong> Pusat kerajinan batik dan industri kreatif. Memiliki pantai-pantai indah seperti Parangtritis dan Parangkusumo.</p>
+                        </div>
+                        
+                        <div class="wilayah-card">
+                            <div class="wilayah-icon">3</div>
+                            <h3>Kabupaten Kulon Progo</h3>
+                            <p><strong>Ibu Kota:</strong> Wates</p>
+                            <p><strong>Ciri Khas:</strong> Wilayah pegunungan Menoreh dengan hasil pertanian yang melimpah. Terkenal dengan gula merah dan wisata alam.</p>
+                        </div>
+                        
+                        <div class="wilayah-card">
+                            <div class="wilayah-icon">4</div>
+                            <h3>Kabupaten Gunungkidul</h3>
+                            <p><strong>Ibu Kota:</strong> Wonosari</p>
+                            <p><strong>Ciri Khas:</strong> Wilayah karst dengan pantai-pantai eksotis seperti Indrayanti, Timang, dan Baron. Terkenal dengan gua-gua alam.</p>
+                        </div>
+                        
+                        <div class="wilayah-card">
+                            <div class="wilayah-icon">5</div>
+                            <h3>Kota Yogyakarta</h3>
+                            <p><strong>Pusat:</strong> Keraton Yogyakarta</p>
+                            <p><strong>Ciri Khas:</strong> Pusat pemerintahan, budaya, dan pariwisata. Jantung keistimewaan dengan Keraton dan Alun-alun.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Keistimewaan -->
+            <div class="content-card highlight-card">
+                <h2 class="content-title">👑 Sistem Pemerintahan Istimewa</h2>
+                <div class="content-body">
+                    <p class="intro-text">Yogyakarta merupakan satu-satunya daerah di Indonesia yang memiliki status <strong>Daerah Istimewa</strong> dengan sistem pemerintahan yang unik.</p>
+                    
+                    <div class="keistimewaan-box">
+                        <h3>🔱 Dasar Hukum</h3>
+                        <p>Undang-Undang Nomor 13 Tahun 2012 tentang Keistimewaan Daerah Istimewa Yogyakarta</p>
+                    </div>
+                    
+                    <div class="struktur-pemerintahan">
+                        <div class="jabatan-card">
+                            <div class="jabatan-header">
+                                <h3>👑 Gubernur</h3>
+                            </div>
+                            <div class="jabatan-body">
+                                <p><strong>Jabatan:</strong> Sri Sultan Hamengku Buwono</p>
+                                <p><strong>Saat ini:</strong> Sri Sultan Hamengku Buwono X</p>
+                                <p>Sultan Yogyakarta secara otomatis menjabat sebagai Gubernur DIY tanpa melalui pemilihan umum.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="jabatan-card">
+                            <div class="jabatan-header">
+                                <h3>🏛️ Wakil Gubernur</h3>
+                            </div>
+                            <div class="jabatan-body">
+                                <p><strong>Jabatan:</strong> Sri Paduka Paku Alam</p>
+                                <p><strong>Saat ini:</strong> Sri Paduka Paku Alam X</p>
+                                <p>Adipati Paku Alam secara otomatis menjabat sebagai Wakil Gubernur DIY tanpa melalui pemilihan umum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="keistimewaan-detail">
+                        <h3>Kewenangan Istimewa</h3>
+                        <div class="kewenangan-grid">
+                            <div class="kewenangan-item">
+                                <span class="icon">📋</span>
+                                <p><strong>Tata Cara Pengisian Jabatan</strong><br>Gubernur dan Wakil Gubernur</p>
+                            </div>
+                            <div class="kewenangan-item">
+                                <span class="icon">🏛️</span>
+                                <p><strong>Kelembagaan</strong><br>Pemerintah Daerah</p>
+                            </div>
+                            <div class="kewenangan-item">
+                                <span class="icon">🎭</span>
+                                <p><strong>Kebudayaan</strong><br>Pelestarian dan Pengembangan</p>
+                            </div>
+                            <div class="kewenangan-item">
+                                <span class="icon">🏞️</span>
+                                <p><strong>Pertanahan</strong><br>Pengelolaan Tanah Kasultanan</p>
+                            </div>
+                            <div class="kewenangan-item">
+                                <span class="icon">🏛️</span>
+                                <p><strong>Tata Ruang</strong><br>Perencanaan dan Penataan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fakta Menarik -->
+            <div class="content-card">
+                <h2 class="content-title">✨ Fakta Menarik Yogyakarta</h2>
+                <div class="content-body">
+                    <div class="fakta-grid">
+                        <div class="fakta-item">
+                            <div class="fakta-icon">🎓</div>
+                            <h3>Kota Pelajar</h3>
+                            <p>Yogyakarta dijuluki sebagai <strong>Kota Pelajar</strong> karena memiliki lebih dari 100 perguruan tinggi dengan ribuan pelajar dari seluruh Indonesia bahkan mancanegara.</p>
+                        </div>
+                        
+                        <div class="fakta-item">
+                            <div class="fakta-icon">🎭</div>
+                            <h3>Kota Budaya</h3>
+                            <p>Dikenal sebagai <strong>Kota Budaya</strong> karena masih melestarikan tradisi Jawa dengan baik. Keraton Yogyakarta menjadi pusat budaya yang aktif hingga kini.</p>
+                        </div>
+                        
+                        <div class="fakta-item">
+                            <div class="fakta-icon">🏛️</div>
+                            <h3>Ibu Kota RI</h3>
+                            <p>Pernah menjadi <strong>Ibu Kota Indonesia</strong> pada periode 1946-1949 saat masa revolusi kemerdekaan.</p>
+                        </div>
+                        
+                        <div class="fakta-item">
+                            <div class="fakta-icon">🌍</div>
+                            <h3>Warisan Dunia UNESCO</h3>
+                            <p>Memiliki 2 situs warisan dunia: <strong>Candi Borobudur</strong> dan <strong>Candi Prambanan</strong> (berbatasan dengan Jawa Tengah).</p>
+                        </div>
+                        
+                        <div class="fakta-item">
+                            <div class="fakta-icon">🏖️</div>
+                            <h3>Destinasi Wisata</h3>
+                            <p>Memiliki beragam destinasi wisata mulai dari budaya, alam, hingga kuliner yang menarik jutaan wisatawan setiap tahunnya.</p>
+                        </div>
+                        
+                        <div class="fakta-item">
+                            <div class="fakta-icon">🎨</div>
+                            <h3>Pusat Seni dan Kreatif</h3>
+                            <p>Menjadi pusat industri kreatif dengan banyak seniman, desainer, dan pengrajin berbakat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tujuan Section -->
+    <section class="tujuan">
+        <div class="container">
+            <h2 class="section-title">Tujuan Website</h2>
+            <div class="tujuan-grid">
+                <div class="tujuan-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Edukatif</h3>
+                    <p>Memperkenalkan keberagaman budaya dan adat istiadat Daerah Istimewa Yogyakarta kepada pelajar</p>
+                </div>
+                <div class="tujuan-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Harmoni</h3>
+                    <p>Memahami nilai-nilai harmoni dan toleransi dalam keberagaman masyarakat Yogyakarta</p>
+                </div>
+                <div class="tujuan-card">
+                    <div class="card-icon">🏛️</div>
+                    <h3>Pelestarian</h3>
+                    <p>Menumbuhkan kesadaran untuk melestarikan budaya dan tradisi luhur Jawa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info -->
+    <section class="quick-info">
+        <div class="container">
+            <h2 class="section-title">Sekilas Daerah Istimewa Yogyakarta</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">🏛️</div>
+                    <h3>Keistimewaan</h3>
+                    <p>Daerah Otonomi Khusus dengan Sultan sebagai Gubernur</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🎓</div>
+                    <h3>Kota Pelajar</h3>
+                    <p>Pusat pendidikan dengan ratusan perguruan tinggi</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🎭</div>
+                    <h3>Kota Budaya</h3>
+                    <p>Warisan budaya Jawa yang masih terjaga hingga kini</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🏝️</div>
+                    <h3>5 Wilayah</h3>
+                    <p>Sleman, Bantul, Kulon Progo, Gunungkidul, Kota Yogyakarta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nilai Utama -->
+    <section class="nilai-utama">
+        <div class="container">
+            <h2 class="section-title">Nilai-Nilai Luhur Masyarakat Yogyakarta</h2>
+            <div class="nilai-showcase">
+                <div class="nilai-item">
+                    <div class="nilai-number">1</div>
+                    <h3>Tepa Selira</h3>
+                    <p>Tenggang rasa dan empati</p>
+                </div>
+                <div class="nilai-item">
+                    <div class="nilai-number">2</div>
+                    <h3>Gotong Royong</h3>
+                    <p>Kerjasama dalam masyarakat</p>
+                </div>
+                <div class="nilai-item">
+                    <div class="nilai-number">3</div>
+                    <h3>Unggah-Ungguh</h3>
+                    <p>Sopan santun dan tata krama</p>
+                </div>
+                <div class="nilai-item">
+                    <div class="nilai-number">4</div>
+                    <h3>Nrimo Ing Pandum</h3>
+                    <p>Menerima dengan ikhlas</p>
+                </div>
+                <div class="nilai-item">
+                    <div class="nilai-number">5</div>
+                    <h3>Rukun Agawe Santosa</h3>
+                    <p>Kerukunan membawa kedamaian</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Harmoni DIY</h3>
+                    <p>Website edukatif untuk memahami keberagaman dan harmoni di Daerah Istimewa Yogyakarta</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="budaya.html">Budaya & Sosial</a></li>
+                        <li><a href="nilai.html">Nilai Harmoni</a></li>
+                        <li><a href="kasus.html">Kasus & Solusi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Tugas PPKn</h3>
+                    <p>Kelas X - Tahun Ajaran 2024/2025<br>
+                    SMK/SMA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Harmoni dalam Keberagaman DIY. Dibuat untuk keperluan edukatif.</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!-- End Main Content -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
